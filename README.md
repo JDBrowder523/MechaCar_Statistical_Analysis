@@ -30,7 +30,26 @@ Summary Statistics for each "Lot" of manufacturers:
 
 ## T-Tests on Suspension Coils
 
-![This is an image](
-![This is an image](
-![This is an image](
-![This is an image](
+T-Test of all manufacturers:
+
+![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D3_tTest_all_manufacturers.png)
+
+ - The T-Test shows a p value of 0.06 which is greater than the threshold value of 0.05.  Therefore, the data is not statistically significant and we cannot reject the null hypothesis.
+
+T-Test of Lot1:
+
+![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D3_tTest_Lot1.png)
+
+ - The T-Test shows a p value of 1.0 which is greater than the threshold value of 0.05.  Therefore, the data is not statistically significant and we cannot reject the null hypothesis.
+
+T-Test of Lot2:
+
+![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D3_tTest_Lot2.png)
+
+ - The T-Test shows a p value of 0.6 which is greater than the threshold value of 0.05.  Therefore, the data is not statistically significant and we cannot reject the null hypothesis.
+
+T-Test of Lot3:
+
+![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D3_tTest_Lot3.png)
+
+ - The T-Test shows a p value of 0.04 which is less than the threshold value of 0.05.  Therefore, the data is statistically significant and we can reject the null hypothesis.
