@@ -64,9 +64,11 @@ T-Test of Lot3:
 
  - Highway Fuel Economy
 
-### Null Hypothesis:
+### Null and Alternative Hypothesis:
 
- - The MechaCar will have the same or better average fuel economy as vehicles of comparable size.
+ - Null: The MechaCar will have the same average fuel economy as vehicles of comparable size.
+
+ - Alternative: The MechaCar will have a higher average fuel economy as vehicles of comparable size.
 
 ### Statistical Tests Used:
 
