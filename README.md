@@ -2,6 +2,8 @@
 
 ## Overview
 
+ AutoRUs has a new prototype called the MechaCar.  There have been some issues in production and management has asked for a statistical analysis to be performed on the manufacture data in order to determine where the issues are coming from and if they are significant.
+
 ## Linear Regression to Predict MPG
 
 ![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D1_Summary_Stats_Mecha_mpg.png)
@@ -22,7 +24,7 @@ Summary Statistics for each "Lot" of manufacturers:
 
 ![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D2_Lot_Summary.png)
 
- - The variance for all manufacturers is 62.3 PSI.  This value shows that the overall manufacture of the MechaCar is within the tolerable limit of 100 PSI.
+ - The variance for all manufacturers is 62.3 PSI.  This value shows that the variance for the overall manufacture of the MechaCar is within the tolerable limit of 100 PSI.
 
  - The variance for Lot 1 is less than 1 PSI.  This is within the tolerable limit of 100 PSI.
  - The variance for Lot 2 is 7.5 PSI.  This is within the tolerable limit of 100 PSI.
@@ -34,22 +36,42 @@ T-Test of all manufacturers:
 
 ![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D3_tTest_all_manufacturers.png)
 
- - The T-Test shows a p value of 0.06 which is greater than the threshold value of 0.05.  Therefore, the data is not statistically significant and we cannot reject the null hypothesis.
+ - The T-Test shows a p-value of 0.06 which is greater than the threshold value of 0.05.  Therefore, the data is not statistically significant and we cannot reject the null hypothesis.
 
 T-Test of Lot1:
 
 ![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D3_tTest_Lot1.png)
 
- - The T-Test shows a p value of 1.0 which is greater than the threshold value of 0.05.  Therefore, the data is not statistically significant and we cannot reject the null hypothesis.
+ - The T-Test shows a p-value of 1.0 which is greater than the threshold value of 0.05.  Therefore, the data is not statistically significant and we cannot reject the null hypothesis.
 
 T-Test of Lot2:
 
 ![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D3_tTest_Lot2.png)
 
- - The T-Test shows a p value of 0.6 which is greater than the threshold value of 0.05.  Therefore, the data is not statistically significant and we cannot reject the null hypothesis.
+ - The T-Test shows a p-value of 0.6 which is greater than the threshold value of 0.05.  Therefore, the data is not statistically significant and we cannot reject the null hypothesis.
 
 T-Test of Lot3:
 
 ![This is an image](https://github.com/JDBrowder523/MechaCar_Statistical_Analysis/blob/main/Images/D3_tTest_Lot3.png)
 
- - The T-Test shows a p value of 0.04 which is less than the threshold value of 0.05.  Therefore, the data is statistically significant and we can reject the null hypothesis.
+ - The T-Test shows a p-value of 0.04 which is less than the threshold value of 0.05.  Therefore, the data is statistically significant and we can reject the null hypothesis.
+
+## Study Design: MechaCar vs Competition
+
+ With gas prices already high and only getting higher, it is necessary to determine how the MechaCar stacks up against the competition. The following study should be completed:
+
+### Metrics to test:
+
+ - Highway Fuel Economy
+
+### Null Hypothesis:
+
+ - The MechaCar will have the same or better average fuel economy as vehicles of comparable size.
+
+### Statistical Tests Used:
+
+ - A 2 sample T-Test will be used to compare the mean fuel economy of the MechaCar vs the competition.
+
+### Necessary Data:
+
+ - Fuel economy data from the MechaCar will need to be gathered, as well as fuel economy data for all the major manufacturers' vehicles that are of similar size to the MechaCar.
