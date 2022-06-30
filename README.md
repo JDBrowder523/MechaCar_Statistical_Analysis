@@ -28,3 +28,9 @@ Summary Statistics for each "Lot" of manufacturers:
  - The variance for Lot 2 is 7.5 PSI.  This is within the tolerable limit of 100 PSI.
  - The variance for Lot 3 is 170.3 PSI.  This is outside the tolerable limit of 100 PSI and needs to be addressed immediately.
 
+## T-Tests on Suspension Coils
+
+![This is an image](
+![This is an image](
+![This is an image](
+![This is an image](
